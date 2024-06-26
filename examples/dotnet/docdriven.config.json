@@ -1,0 +1,18 @@
+{
+    "templates": [
+        {
+            "name": ".NET Controller",
+            "example": "templates/Controllers/TodoItemsController.cs",
+            "outputDirectory": "controllers",
+            "target": "Endpoints",
+            "split": false
+        },
+        {
+            "name": ".NET Model",
+            "example": "templates/Models/TodoItem.cs",
+            "outputDirectory": "models",
+            "target": "Schemas",
+            "split": false
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "templates": [
+        {
+            "name": "Laravel Controller",
+            "example": "templates/controllers/TodoItemsController.cs",
+            "outputDirectory": "controllers",
+            "target": "Endpoints",
+            "split": false
+        },
+        {
+            "name": "Laravel Eloquent Model",
+            "example": "templates/models/TodoItem.cs",
+            "outputDirectory": "models",
+            "target": "Schemas",
+            "split": false
+        }
+    ]
+}
