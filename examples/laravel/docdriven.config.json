@@ -3,14 +3,14 @@
         {
             "name": "Laravel Controller",
             "example": "templates/controllers/TodoItemsController.cs",
-            "outputDirectory": "controllers",
+            "outputDirectory": "app/Http/Controllers",
             "target": "Endpoints",
             "split": false
         },
         {
             "name": "Laravel Eloquent Model",
             "example": "templates/models/TodoItem.cs",
-            "outputDirectory": "models",
+            "outputDirectory": "app",
             "target": "Schemas",
             "split": false
         }

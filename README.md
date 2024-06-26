@@ -10,10 +10,11 @@ First things first, create a `docdriven.config.json` file in the root of your re
 ## Templates
 The configuration file points to file templates that the **DocDriven Code Assistant** uses as its blueprint. To help you get started, we’ve thrown in some [examples](examples) for:
 
-- dotnet
-- laravel
-- rails
+- [ASP.NET Core (8.x)](examples/dotnet)
+- [Laravel (11.x)](examples/laravel)
+- [Ruby on Rails (7.x)](examples/rails)
+- [TypeScript (5.x)](examples/typescript)
 
 Remember, these configurations are just basic examples. To get the best out of the **DocDriven Code Assistant**, customize them based on your framework, namespace, coding style, libraries, and anything else you use.
 
-For more detailed documentation, check out docs.docdriven.com.
+For more detailed documentation, check out [docs.docdriven.com](https://docdriven.com).
