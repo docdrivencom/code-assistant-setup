@@ -1,20 +1,18 @@
-# DocDriven Code Assistant Setup
+# DocDriven Code Assistant General Setup
 
 ## What's This About?
-Stumbled into this corner of the internet by accident? Welcome! This repository is all about setting up the **DocDriven Code Assistant**. If you’re not sure what that means, head over to [docdriven.com](https://docdriven.com) to get the lowdown.
+Stumbled into this corner of the internet by accident? Welcome! This repository is about setting up the *DocDriven Code Assistant*. If you’re not sure what that means, head over to [docdriven.com](https://docdriven.com) for more information.
 
-## The Configuration File
-First things first, create a `docdriven.config.json` file in the root of your repository. This is the magic key that lets the **DocDriven Code Assistant** understand your setup.
+## The Configuration 
 
+>For the *Code Assistant* to work it needs a `docdriven.config.json` in the root directory of your project and input files to learn from.
 
-## Templates
-The configuration file points to file templates that the **DocDriven Code Assistant** uses as its blueprint. To help you get started, we’ve thrown in some [examples](examples) for:
+>To get you up to speed fast, we have created a few example configurations with input files, that you can download and tweak to your specific needs.
 
-- [ASP.NET Core (8.x)](examples/dotnet)
-- [Laravel (11.x)](examples/laravel)
-- [Ruby on Rails (7.x)](examples/rails)
-- [TypeScript (5.x)](examples/typescript)
+**Examples:**  
+- [ASP.NET Core (8.x)](https://github.com/docdrivencom/code-assistant-setup-dotnet)  
+- [Laravel (11.x)](https://github.com/docdrivencom/code-assistant-setup-laravel)  
+- [Ruby on Rails (7.x)](https://github.com/docdrivencom/code-assistant-setup-rails)  
+- [TypeScript (5.x)](https://github.com/docdrivencom/code-assistant-setup-typescript)
 
-Remember, these configurations are just basic examples. To get the best out of the **DocDriven Code Assistant**, customize them based on your framework, namespace, coding style, libraries, and anything else you use.
-
-For more detailed documentation, check out [docs.docdriven.com](https://docdriven.com).
+For more detailed documentation, please visit [docs.docdriven.com](https://docdriven.com).
